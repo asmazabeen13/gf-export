@@ -1,0 +1,141 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* CSS for the pagination container */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+/* Style for each button */
+.pagination li {
+  margin: 0 5px;
+}
+
+/* Add more specific styling as needed, such as button styles, colors, etc. */
+.pagination button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the active page button */
+.pagination li.active button {
+  background-color: #ff5733;
+}
+
+/* CSS for the SearchBar component */
+.search-box {
+  width: 100%; /* Make the search bar 100% wide */
+  padding: 10px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width */
+  /* You can add more styles as needed */
+}
+
+/* CSS for the entire page content */
+body {
+  font-size: 16px;
+}
+
+.table {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0 10px; /* Space between rows */
+}
+
+.select-all-checkbox {
+  margin: 0; /* Remove extra margin from the checkbox */
+  width: 20px; /* Adjust the width as needed */
+}
+
+/* Media query for smaller screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .table {
+    max-width: 768px;
+  }
+
+  .select-all-checkbox {
+    width: 16px; /* Adjust for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens (e.g., mobile phones) */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .table {
+    max-width: 480px;
+  }
+
+  .select-all-checkbox {
+    width: 14px; /* Adjust for even smaller screens */
+  }
+}
+
+/* CSS for spacing between columns' contents */
+td {
+  padding: 5px; /* Add padding to all cells within the table */
+}
+
+/* Specific styles for certain columns */
+td.name {
+  padding-left: 20px; /* Add extra left padding to the 'Name' column */
+}
+
+td.email {
+  padding-left: 10px; /* Add extra left padding to the 'Email' column */
+}
+
+/* You can add more specific styles for other columns as needed */
+
+/* CSS for the Edit and Delete buttons */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Add this CSS to style the pagination container */
+.pagination-container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Add your existing CSS styles for the pagination buttons here */
+.page-item {
+  /* Your pagination button styles */
+}
+
+.page-link {
+  /* Your pagination link styles */
+}
